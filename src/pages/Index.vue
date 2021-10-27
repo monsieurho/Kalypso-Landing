@@ -236,11 +236,14 @@ export default {
   }
 }
 .scene-anim {
-  width:600px;
-  height:600px;
+  width:800px;
+  height:800px;
   perspective: 1000px;
   z-index:1;
   position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 .wrapper-anim {
   width:100%;
