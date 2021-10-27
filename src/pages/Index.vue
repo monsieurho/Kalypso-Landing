@@ -214,6 +214,7 @@ export default {
 .animation-space
 {
   width:50%;
+  height:100vh;
   display:flex;
   justify-content:center;
   align-items:center;
