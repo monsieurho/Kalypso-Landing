@@ -2,7 +2,7 @@
   <div class="about-contract-wrapper">
     <div class="about-contract-container">
       <div>
-        <h2>Test the demo</h2>
+        <h2>Try the demo</h2>
         <p>
           The Riflebird Network is the world's first ever truly decentralized
           proxy network. Made for you.
