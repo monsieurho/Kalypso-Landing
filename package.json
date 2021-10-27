@@ -1,0 +1,21 @@
+{
+  "name": "kalypso",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "gridsome": "^0.7.0",
+    "gridsome-scroll-reveal": "^1.0.11",
+    "three": "^0.129.0",
+    "vue-aos": "^2.1.0",
+    "vue-axios": "^3.2.5",
+    "vue-flickity": "^1.2.1",
+    "vue-scroll-reveal": "^1.0.11",
+    "vue-text-highlight": "^2.0.10"
+  }
+}
