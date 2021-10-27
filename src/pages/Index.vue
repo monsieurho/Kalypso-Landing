@@ -3,7 +3,7 @@
     <div   class="bcn_overall">
 <div class="bcn_hero_container">
 <!-- headline starts -->
-  <div class="bcn_meta_highlight">TestYOUR PRIVACY COMPANION</div>
+  <div class="bcn_meta_highlight">YOUR PRIVACY COMPANION</div>
   <h1 class="bcn_title">Decentralized Bandwidth Marketplace On Worldwide Devices</h1>
     <div class="bcn_paragraph">
       Use the Fastest Residential Proxy Network, bypass country restrictions and website blocks. Forget about the limit of actions made from one IP. <span class="bcn_plink"><a href="#try-the-demo">Try the demo</a></span>
