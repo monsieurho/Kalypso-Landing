@@ -3,15 +3,48 @@
     <div   class="bcn_overall">
 <div class="bcn_hero_container">
 <!-- headline starts -->
-  <div class="bcn_meta_highlight">YOUR PRIVACY COMPANION</div>
-  <h1 class="bcn_title">Decentralized Bandwidth Marketplace On Worldwide Devices</h1>
+  <div class="bcn_meta_highlight">
+    <svg enable-background="new 0 0 330 330" viewBox="0 0 330 330" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="m165 330c63.411 0 115-51.589 115-115 0-29.771-11.373-56.936-30-77.379v-52.621c0-46.869-38.131-85-85-85s-84.999 38.131-84.999 85v52.619c-18.628 20.445-30.001 47.61-30.001 77.381 0 63.411 51.589 115 115 115zm15-110.014v20.014c0 8.284-6.716 15-15 15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986 0-13.785 11.215-25 25-25s25 11.215 25 25c0 8.162-3.932 15.421-10 19.986zm-69.999-134.986c0-30.327 24.673-55 54.999-55 30.327 0 55 24.673 55 55v29.029c-16.348-8.941-35.09-14.029-55-14.029-19.909 0-38.651 5.088-54.999 14.028z" />
+    </svg>
+    Your Privacy Companion
+    <svg width="12px"  viewBox="0 0 16 12" style="margin-left:20px;">
+      <path d="M0 7h12.17l-3.28 3.28 1.41 1.41L16 6 10.3.31 8.89 1.72 12.17 5H0v2z"></path>
+    </svg>
+  </div>
+  <h1 class="bcn_title">Decentralized Bandwidth Marketplace</h1>
     <div class="bcn_paragraph">
-      Use the Fastest Residential Proxy Network, bypass country restrictions and website blocks. Forget about the limit of actions made from one IP. <span class="bcn_plink"><a href="#try-the-demo">Try the demo</a></span>
+      Leverage Kalypso’s P2P Proxy, VPN, and CDN bandwidth marketplace to maximize your browsing capabilities. Put your devices to work and earn passive income through the click of a button. <span class="bcn_plink"><a href="#try-the-demo"> Try the demo</a></span>
   </div>
           <div id="prepare">
-            <button class="btn btn-primary" id="btn-connect">
-              GET  UPDATES
-            </button>
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="https://network.us5.list-manage.com/subscribe/post?u=ff03658be1ba40ba4737fad13&amp;id=0ca8efef0c"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                novalidate>
+                <div id="mc_embed_signup_scroll">
+            
+                  <div class="mc-field-group">                   
+                    <input type="email" value="" name="EMAIL" class="input-email-form required email" id="mce-EMAIL" placeholder="Email address"> 
+                  </div>
+                  <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                      name="b_ff03658be1ba40ba4737fad13_0ca8efef0c" tabindex="-1" value="" ></div>
+                  <div class="optionalParent">
+                    <div class="clear foot">
+                      <input type="submit" value="Subscribe"  name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            
+            <!--End mc_embed_signup-->
           </div>
       </div>
 
@@ -81,21 +114,7 @@ export default {
     UserRewards,
     ProviderApp,
     Developer
-  },
-  data: function() {
-            return {
-    xGlobe: 0,
-    yGlobe: 0, 
-  }},
-  methods: {
-           updateGlobeCoordinates: function(event) {
-      // pass event object, bound to mouse move with update
-      this.xGlobe = event.screenX / 50;        
-      this.yGlobe = event.screenY / 50;
-
-
-    }
-             }
+  }
   }
   
 
@@ -139,6 +158,16 @@ export default {
   font-family:"SF Mono", "Fira Code","Fira Mono","Roboto Mono",monospace;
     font-size:16px;
     font-weight: 400;
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:15px;
+}
+.bcn_meta_highlight svg
+{
+  color:#0000ff;
+fill:#0000ff;
+width:20px;
+margin-right:5px;
 }
 .bcn_paragraph
 {
@@ -148,6 +177,28 @@ export default {
     font-family:"SF Mono", "Fira Code","Fira Mono","Roboto Mono",monospace;
     font-size: 20px;
     line-height: 1.3;
+}
+
+#prepare
+{
+  margin-top:40px;
+}
+
+#mc_embed_signup_scroll
+{
+  display:flex;
+justify-content:flex-start;
+align-items:center
+}
+.input-email-form
+{
+  padding:20px;
+  margin-right:10px;
+}
+.input-email-form::placeholder
+{
+      font-family:"SF Mono", "Fira Code","Fira Mono","Roboto Mono",monospace;
+
 }
 
 .bcn_plink a
@@ -168,7 +219,7 @@ export default {
     color: #000;
     line-height: 1;
   margin: 0px;
-    font-size: 73px;
+    font-size: 62px;
 }
 
 .btn
@@ -183,7 +234,6 @@ export default {
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 50px;
     transition:ease-in all 0.2s;
 }
 
@@ -219,6 +269,7 @@ export default {
   justify-content:center;
   align-items:center;
   padding-top:100px;
+  position:relative;
 }
 
 
@@ -239,12 +290,10 @@ export default {
 .scene-anim {
   width:800px;
   height:800px;
-  right:20px;
   perspective: 1000px;
   z-index:1;
-  position:absolute;
-
-  
+position:absolute;
+left:0px;
 }
 .wrapper-anim {
   width:100%;
