@@ -218,6 +218,7 @@ export default {
   display:flex;
   justify-content:center;
   align-items:center;
+  padding-top:100px;
 }
 
 
@@ -238,12 +239,12 @@ export default {
 .scene-anim {
   width:800px;
   height:800px;
+  right:20px;
   perspective: 1000px;
   z-index:1;
   position:absolute;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+
+  
 }
 .wrapper-anim {
   width:100%;
