@@ -69,6 +69,7 @@ body {
   padding-left:50px;
   padding-right:50px;
   position:absolute;
+  width:100%;
 }
 
 .logo_bcn
