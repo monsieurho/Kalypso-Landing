@@ -2,45 +2,47 @@
 <div class="reward-wrapper">
 <div class="reward-container">
 <div class="reward-title">
-    <img style="position:absolute;width:150px;transform:rotate(70deg);;left:17%;padding-top:100px" src="../assets/token.gif">
-Get rewards<img style="position:absolute;width:150px;transform:rotate(30deg);padding-bottom:00px" src="../assets/token.gif"> <br>for sharing<br> your network
+    <!-- <img style="position:absolute;width:150px;transform:rotate(70deg);;left:17%;padding-top:100px" src="../assets/token.gif"> -->
+Get rewards<br>for sharing<br> your network
 </div>
 <div class="reward-subtitle">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+Start earning with Kalypso, and use the money to pay for a streaming platform subscription, unlock exclusive content
+on free-to-play video games, or simply treat yourself with a little online shopping spree.
 </div>
 <div class="reward-four-points">
-        <img style="position:absolute;width:150px;transform:rotate(190deg);;left:14%;padding-top:100px" src="../assets/token.gif">
 
     <div class="point1">
     <h3>
-        Lorem Ipsum Dolare
+        Earn without compromising security
     </h3>
     <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Kalypso ensures that your internet traffic is only used by trusted partners, and the app never asks for or gains access to the storage of your device.
     </div>
     </div>
       <div class="point2">
     <h3>
-        Lorem Ipsum Dolare
+    Know exactly what your Internet is used for
     </h3>
     <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Once you start using Kalypso, your devices act like view towers and help world-famous businesses access the World Wide
+        Web without having to worry about location-based restrictions or censorship.
     </div>
     </div>
       <div class="point3">
     <h3>
-        Lorem Ipsum Dolare
+       Get rewarded in KALY Tokens and USDC
     </h3>
     <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Stake your tokens and earn rewards USDC and KALY. It’s the risk-free, collateral-free way to earn crypto passive income.
     </div>
     </div>
       <div class="point4">
     <h3>
-        Lorem Ipsum Dolare
+        Transparent earnings
     </h3>
     <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Your earnings directly depend on the amount of traffic you share with Honeygain’s network. The more you share, the more
+        you earn!
     </div>
     </div>
     </div>
@@ -113,6 +115,7 @@ font-size:15px;
 .reward-four-points > div
 {
 padding:10px;
+width:25%;
 }
 .reward-four-points > div > div
 {

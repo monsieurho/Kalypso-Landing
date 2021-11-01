@@ -7,7 +7,7 @@
     </div>
       
       <h2>Made with developers in mind</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    <p>Kalypso provides the most advanced rotating residential proxy service offering the fastest and largest real-peer IP network in the world.</p></div>
     <div class="terminal-container">
     <div class=fakeMenu>
   <div class="fakeButtons fakeClose"></div>

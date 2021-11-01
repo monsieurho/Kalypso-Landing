@@ -13,8 +13,8 @@
 <div>00</div>
 <div class="number-bar"></div><div>Network Providers</div>
     </div>
-                <h2>Easily connect to the network and start earning RIFLE coins</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Easily connect to the network and start earning KALY tokens</h2>
+                <p>Kalypso can be installed on any Windows, Linux, MacOS, or Android device with a stable Internet connection. Once active, Kalypso securely shares your Internet connection, never gaining access to your personal data.</p>
                 </div>
 
             </div>
@@ -25,25 +25,7 @@
 </template>
 
 <script>
-export default {
-        data: function() {
-            return {
-    x: 0,
-    y: 0, 
-    xImage: 0,
-    yImage: 0
-  }},
-  methods: {
-           updateCoordinates: function(event) {
-      // pass event object, bound to mouse move with update
-      this.x = event.pageX - 150;        
-      this.y = event.pageY - 150;
-      this.xImage = event.screenX / 50;        
-      this.yImage = event.screenY / 50;
-    }
-             }
 
-}
 </script>
 
 <style scoped>
@@ -147,15 +129,9 @@ width:50%;
   border-radius: 50%;
   z-index: 2;
   background-image:url('../assets/hover-reveal.png');
-      box-shadow: 10px 10px 80px 80px #0f0f0f inset;
-  display:none;
 opacity:0.3;
 }
 
-.provider-app-wrapper:hover .magic
-{
-    display:block;
-}
 .scene {
   height: 100vh;
   width: 100%;
