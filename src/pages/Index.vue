@@ -458,6 +458,8 @@ left:0px;
   z-index:999;
   right:0px;
   padding-bottom:100px;
+  order:2;
+
 }
 .bcn_title
 {
@@ -480,12 +482,11 @@ left:0px;
   width:100%;
   align-self:flex-start;
   display:flex;
-  justify-content:flex-end;
-  align-items:flex-start;
-  position:absolute;
-  top:0px;
-  right:0px;
-
+  justify-content:center;
+  align-items:center;
+  order:1;
+    height:310px;
+    margin-top:50px;
 }
 .scene-anim {
   width:310px;
@@ -493,8 +494,6 @@ left:0px;
   perspective: 1000px;
   z-index:1;
 position:absolute;
-right:-25px;
-top:65px;
 margin-left:auto;
 }
 .bcn_meta_highlight
