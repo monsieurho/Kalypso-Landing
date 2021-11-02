@@ -86,7 +86,6 @@ text-align:center;
     height:80px;
     background-color:#fff;
     animation:typing 1.2s infinite;
-
 }
 @keyframes typing {
   0% {opacity:0}
@@ -120,5 +119,70 @@ width:25%;
 .reward-four-points > div > div
 {
 font-size:12px;
+}
+
+@media (max-width:768px)
+{
+    .reward-wrapper
+{
+background-color:#0f0f0f;
+color:white; 
+padding:0px 0px;
+padding-top:100px;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:0vh;
+overflow:hidden;
+}
+    .reward-title
+{
+ font-size: 40px;
+    line-height: 1; 
+    max-width:800px;  
+    position:relative; 
+}
+.reward-title:after
+{
+    content:' ';
+    white-space: pre;
+    position:relative;
+    left:-5px;
+    width:1px;
+    height:40px;
+    background-color:#fff;
+}
+.reward-subtitle
+{
+    font-size:14px;
+    max-width:500px;
+    padding:20px;
+    padding-bottom:0px;
+}
+.reward-four-points
+{
+display:flex;
+flex-direction:column;
+max-width:100%;
+text-align:center;
+margin-top:30px;
+}
+.reward-four-points h3
+{
+font-size:15px;
+}
+.reward-four-points > div
+{
+padding:20px;
+width:100%;
+}
+.reward-four-points > div > div
+{
+font-size:12px;
+}
+.reward-four-points
+{
+margin-top:10px;
+}
 }
 </style>

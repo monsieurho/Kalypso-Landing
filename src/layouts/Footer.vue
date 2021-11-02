@@ -90,5 +90,18 @@
     background-color:#fff;
     margin-left:10px;
 }
-
+@media (max-width:768px)
+{
+ .wrapper-all
+{
+    background-color:#0f0f0f;
+    display:flex;
+    flex-direction:column;
+    padding:30px 60px;
+    min-height:300px;
+    border-top:1px solid #fff;
+    width:100%;
+    overflow:hidden;
+}   
+}
 </style>

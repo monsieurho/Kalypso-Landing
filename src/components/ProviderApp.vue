@@ -52,8 +52,6 @@
     margin-right:10px;
 }
 
-
-
 .provider-app-wrapper
 {
 background-color:#0f0f0f;
@@ -66,8 +64,6 @@ align-items:center;
 min-height:70vh;
 margin-bottom:0px;
 overflow:hidden;
-
-
 }
 .provider-app-container
 {
@@ -87,7 +83,6 @@ width:50%;
 {
     position:relative;
         z-index:15;
-
 }
 
 .provider-app-headline h2
@@ -138,5 +133,58 @@ opacity:0.3;
   text-align: center;
   overflow: hidden;
   z-index: 1;
+}
+@media (max-width:768px)
+{
+    .provider-app-wrapper
+{
+background-color:#0f0f0f;
+color:white; 
+padding:0px;
+padding-top:0px;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:0vh;
+margin-bottom:0px;
+overflow:hidden;
+}
+   .provider-app-container
+{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+width:100%;
+position:relative;
+padding:20px;
+} 
+.provider-app-container > div
+{
+width:100%;
+}
+.provider-app-headline h2
+{
+    font-size:30px;
+    font-weight:400;
+    line-height:1;
+    text-align:center;
+}
+.provider-app-headline p
+{
+    text-align:center;
+}
+.provider-app-image img
+{
+    width:120%;
+    position:relative;
+    
+}
+.section-number-container
+{
+    display:none;
+}
+
 }
 </style>

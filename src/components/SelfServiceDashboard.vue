@@ -82,7 +82,22 @@ margin-bottom: 20px;
 {
 width:80%;
 }
+@media (max-width:768px)
+{
+    .section-number-container
+{
+    display:none;
+}
+ .dashboard-wrapper > div
+{
+    width:100%;
+}  
+.dashboard-headline{
 
+max-width:100%;
+padding:20px;
+}
+}
 
 
 </style>

@@ -150,4 +150,26 @@ p {
   50% {opacity:0}
   100% {opacity:0}
 }
+@media (max-width:768px)
+{
+  .section-number-container
+{
+    display:none;
+}
+.terminal-headline
+{
+    width:100%;
+    order:1;
+    padding:20px;
+}
+  .terminal-headline h2
+  {
+color:#fff;
+
+line-height:1;
+margin-bottom: 20px;
+font-weight:400;
+font-size:35px;
+  }
+}
 </style>

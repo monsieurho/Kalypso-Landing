@@ -1,9 +1,17 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <div class="menu">
+          <div :class="{open: activeClass}" class="menu-overlay">
+            <div class="menu-content">
+                        <g-link class="menu-content-link" to="/about/">Home</g-link>
+                        <g-link class="menu-content-link" to="/about/">About</g-link>
+                        <g-link class="menu-content-link" to="/proxy/">Proxy</g-link>
+                        <g-link class="menu-content-link" to="/vpn/">VPN</g-link>
+                        <g-link class="menu-content-link" to="/cdn/">CDN</g-link>
+            </div>
+          </div>
+      <div :class="{open: activeClass}" class="menu">
         <span class="menu-circle"></span>
-        <a  v-on:click="openingMenu" href="#" class="menu-link">
+        <a v-on:click="openingMenu" href="#" class="menu-link">
           <span class="menu-icon">
             <span class="menu-line menu-line-1"></span>
             <span class="menu-line menu-line-2"></span>
@@ -12,12 +20,9 @@
         </a>
       </div>
       
-      <div :class="{open: activeClass}" class="menu-overlay">
-        <h1 class="overlay-info">
-          YOU CAN ADD YOUR MENU HERE. <br>
-          I USED THIS GIF INSTEAD.
-        </h1>
-      </div>
+
+    <header class="header">
+
         <g-link to="/"><img src="../assets/Kalypso-blue.png" class="logo_bcn" alt=""></g-link>
       <nav class="nav main-nav">
         <g-link class="nav__link" to="/about/">About</g-link>
@@ -160,18 +165,19 @@ margin-left:auto;
 
 /* ---------------------------------------------------- MENU ----------------------------------------------------------------- */
 .menu {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   height: 46px;
   width: 46px;
+  z-index:1110;
 }
 
 .menu-link {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 1002;
+  z-index: 99999;
 }
 
 .menu-icon {
@@ -194,6 +200,7 @@ margin-left:auto;
   position: absolute;
   left: 0;
   transition: all 0.25s ease-in-out;
+  z-index: 99999;
 }
 .menu-line-2 {
   top: 0;
@@ -235,38 +242,36 @@ margin-left:auto;
 .menu-overlay {
   background-color: #0000ff;
   color: #fff;
-  height: 100%;
+  height: 85vh;
   width: 100%;
   position: fixed;
   text-align: center;
   transition: opacity 0.2s ease-in-out;
-  z-index: 1001;
+  z-index: 1300;
   opacity: 0;
   visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top:0;
-  left:0;
-  overflow:hidden;
+  margin-top:10vh;
 }
 .menu-overlay.open {
   opacity: 1;
   visibility: visible;
 }
-
-/* ------------- */
-.info {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.menu-content
+{
+color:white;
+display:flex;
+flex-direction:column;
 }
-.overlay-info {
-  text-align: center;
-  color: #fff;
+.menu-content-link
+{
+color:white;
+font-size:3rem;
+text-decoration:none;
+padding-bottom:1rem;
 }
 
 
