@@ -485,7 +485,6 @@ left:0px;
   justify-content:center;
   align-items:center;
   order:1;
-    margin-top:30px;
     max-height:310px;
 }
 .scene-anim {
@@ -495,6 +494,7 @@ left:0px;
   z-index:1;
 position:absolute;
 margin-left:auto;
+top:10px;
 }
 .bcn_meta_highlight
 {
