@@ -448,6 +448,8 @@ left:0px;
     min-height:100vh;
     overflow-x:hidden;
     position:relative;
+    justify-content:flex-end;
+    align-items:flex-end;
 }
 .bcn_hero_container
 {
@@ -455,7 +457,7 @@ left:0px;
   position:relative;
   z-index:999;
   right:0px;
-  padding-top:150px;
+  padding-bottom:100px;
 }
 .bcn_title
 {
@@ -476,6 +478,7 @@ left:0px;
 .animation-space
 {
   width:100%;
+  align-self:flex-start;
   display:flex;
   justify-content:flex-end;
   align-items:flex-start;
@@ -485,19 +488,31 @@ left:0px;
 
 }
 .scene-anim {
-  width:300px;
-  height:300px;
+  width:310px;
+  height:310px;
   perspective: 1000px;
   z-index:1;
 position:absolute;
 right:-25px;
-top:35px;
+top:65px;
 margin-left:auto;
 }
 .bcn_meta_highlight
 {
 display:none;
 }
+
+#prepare
+{
+  margin-top:20px;
+}
+
+#mc_embed_signup_scroll
+{
+
+padding-left:20px;
+}
+
 }
 
 </style>
