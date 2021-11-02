@@ -6,13 +6,13 @@
   <div class="column">
       <ul>
           <h3>More</h3>
-          <li>About</li>
+          <!-- <li>About</li> -->
           <li>Contact us</li>
           <li>Get updates</li>
       </ul>
       </div>
 
-  <div class="column">
+  <div class="column" style="">
       <ul>
           <h3>The Project</h3>
           <li>Whitepaper</li>
@@ -30,7 +30,7 @@
   </div>
   
                   <div class="section-number-container">
-<div>Copyright 2021 Riflebird ltd</div>
+<div>Copyright 2021 <br>Kalypso Network</div>
 <div class="number-bar"></div>
     </div>
   
@@ -97,11 +97,21 @@
     background-color:#0f0f0f;
     display:flex;
     flex-direction:column;
-    padding:30px 60px;
+    padding:30px 20px;
     min-height:300px;
     border-top:1px solid #fff;
     width:100%;
     overflow:hidden;
 }   
+.layout-footer
+{
+    
+    width:100%;
+    background-color:#0f0f0f;
+    color:#fff;
+    display:flex;
+    padding:0px 0px;
+    flex-direction:column
+}
 }
 </style>

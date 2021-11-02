@@ -182,7 +182,7 @@ font-size:12px;
 }
 .reward-four-points
 {
-margin-top:10px;
+display:none;
 }
 }
 </style>
