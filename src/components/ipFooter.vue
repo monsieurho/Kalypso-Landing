@@ -86,5 +86,11 @@ margin-top:10px;
 {
     color:#0000ff;
 }
-
+@media (max-width:768px)
+{
+.bcn_social-bottom-container
+{
+display:none;
+}
+}
 </style>

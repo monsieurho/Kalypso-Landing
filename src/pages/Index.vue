@@ -228,7 +228,7 @@ align-items:center
     background-color: transparent !important;
     border: 1px solid #0000ff !important;
     border-radius: 4px;
-    padding: 1.25rem 1.75rem !important;
+    padding: 20px;
     font-size: 18px !important;
     font-family:"SF Mono", "Fira Code","Fira Mono","Roboto Mono",monospace;
     line-height: 1;
@@ -439,5 +439,65 @@ left:0px;
 
 /* animation ends */
 
+@media (max-width:768px)
+{
+  .bcn_overall
+{
+  max-width:100%;
+  flex-direction:column;
+    min-height:100vh;
+    overflow-x:hidden;
+    position:relative;
+}
+.bcn_hero_container
+{
+  max-width:100%;
+  position:relative;
+  z-index:999;
+  right:0px;
+  padding-top:150px;
+}
+.bcn_title
+{
+
+    font-size: 38px;
+          padding: 0px 20px;
+
+}
+.bcn_paragraph
+{
+      padding: 0px 20px;
+    max-width: 100%;
+      color: #888888;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.animation-space
+{
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-start;
+  position:absolute;
+  top:0px;
+  right:0px;
+
+}
+.scene-anim {
+  width:300px;
+  height:300px;
+  perspective: 1000px;
+  z-index:1;
+position:absolute;
+right:-25px;
+top:35px;
+margin-left:auto;
+}
+.bcn_meta_highlight
+{
+display:none;
+}
+}
 
 </style>

@@ -126,6 +126,13 @@ margin-left:auto;
   transition:all ease-in .2s;
 }
 
+@media (max-width:768px)
+{
+.nav
+{
+display:none;
+}
 
+}
 
 </style>

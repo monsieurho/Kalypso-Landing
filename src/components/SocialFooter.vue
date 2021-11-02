@@ -58,4 +58,11 @@ margin-top:10px;
     z-index: 10;
     color: #8892b2;
 }
+@media (max-width:768px)
+{
+.bcn_social-bottom-container
+{
+display:none;
+}
+}
 </style>
