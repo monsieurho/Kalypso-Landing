@@ -485,8 +485,8 @@ left:0px;
   justify-content:center;
   align-items:center;
   order:1;
-    height:310px;
-    margin-top:50px;
+    margin-top:30px;
+    max-height:310px;
 }
 .scene-anim {
   width:310px;
