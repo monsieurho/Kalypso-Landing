@@ -488,8 +488,8 @@ left:0px;
     max-height:310px;
 }
 .scene-anim {
-  width:310px;
-  height:310px;
+  width:90vw;
+  height:90vw;
   perspective: 1000px;
   z-index:1;
 position:absolute;
