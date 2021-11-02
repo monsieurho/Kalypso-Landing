@@ -494,7 +494,7 @@ left:0px;
   z-index:1;
 position:absolute;
 margin-left:auto;
-top:10px;
+top:0px;
 }
 .bcn_meta_highlight
 {
