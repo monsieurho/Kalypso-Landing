@@ -1,52 +1,45 @@
 <template>
 <div class='wrapper'>
 <div class='steps' id='steps'>
-    <h2 class="title-roadmap" v-scroll-reveal.reset>Roadmap</h2>
-  <div class='step' v-scroll-reveal.reset>
+    <h2 class="title-roadmap">Roadmap</h2>
+  <div class='step'>
     <div class='number completed'>
       <svg viewBox="0 0 512 512" width="100" title="check">
         <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" />
       </svg>
     </div>
     <div class='info'>
-      <p class='title' >
-        Desktop and mobile provider app launch
+      <p class='title'>
+        Distributed Proxy network proof of concept
       </p>
-      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.</p>
+      <p class='text'>Launch of the chrome extension demo for providers, proof of concept for the user dashboard, further network architecture designing and security audit</p>
     </div>
   </div>
 
-  <div class='step' v-scroll-reveal.reset>
-    <div class='number'>2</div>
+  <div class='step'>
+    <div class='number'>Q1</div>
     <div class='info'>
-      <p class='title'>Proxy network open to users</p>
-      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.</p>
+      <p class='title'>2022 -Proxy beta launch and on-chain Solana testnet deployment</p>
+      <p class='text'>Testing of on-chain data stream, launch of community platforms and testing of provider rewards calculation</p>
     </div>
   </div>
   
-    <div class='step' v-scroll-reveal.reset>
-    <div class='number'>2</div>
+    <div class='step'>
+    <div class='number'>Q2</div>
     <div class='info'>
-      <p class='title'>VPN feature roll out to individual users</p>
-      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.</p>
+      <p class='title'>Continue build out of products (Proxy and VPN)</p>
+      <p class='text'>With user dashboard launch as well as Android and iOS app beta launch</p>
     </div>
   </div>
   
-    <div class='step' v-scroll-reveal.reset>
-    <div class='number'>2</div>
+    <div class='step'>
+    <div class='number'>Q3</div>
     <div class='info'>
-      <p class='title'>Machine Learning Integration for data scraping</p>
-      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.</p>
+      <p class='title'>MVP launch of Proxy</p>
+      <p class='text'>With beta launch of VPN and TGE, launch of web scrapping tools and CDN beta launch</p>
     </div>
   </div>
-  
-    <div class='step'  v-scroll-reveal.reset>
-    <div class='number'>2</div>
-    <div class='info'>
-      <p class='title'>Rewards</p>
-      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.</p>
-    </div>
-  </div>
+
  
   
 </div>
@@ -102,13 +95,13 @@
   margin: 8px 0 20px;
 }
 .step .title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 8px;
   color: white;
 }
 .step .text {
-  font-size: 12px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
   padding-bottom: 0;
   margin: 0;

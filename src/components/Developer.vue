@@ -7,7 +7,7 @@
     </div>
       
       <h2>Made with developers in mind</h2>
-    <p>Kalypso provides the most advanced rotating residential proxy service offering the fastest and largest real-peer IP network in the world.</p></div>
+    <p>Kalypso provides the most advanced rotating residential proxy service offering a fast and large real-peer IP network.</p></div>
     <div class="terminal-container">
     <div class=fakeMenu>
   <div class="fakeButtons fakeClose"></div>
@@ -15,11 +15,11 @@
   <div class="fakeButtons fakeZoom"></div>
 </div>
 <div class="fakeScreen">
-  <p>curl --proxy zproxy.lum-superproxy.io:22225 --proxy-user lum-customer-CUSTOMER-zone-residential
--country-gb
--city-london
+  <p>curl --proxy zproxy.kaly-superproxy.io:22225 --proxy-user kaly-customer-CUSTOMER-zone-mobile
+-country-hk
+-city-hong-kong
 -os-win
-    :PASSWORD "http://lumtest.com/myip.json"<span class="blink">_</span></p>
+    :PASSWORD "http://kalypso.network/ip-testing.json"<span class="blink">_</span></p>
 </div>
     </div>
 </div>

@@ -33,7 +33,7 @@ on free-to-play video games, or simply treat yourself with a little online shopp
        Get rewarded in KALY Tokens and USDC
     </h3>
     <div>
-        Stake your tokens and earn rewards USDC and KALY. It’s the risk-free, collateral-free way to earn crypto passive income.
+        Stake your tokens and earn rewards in USDC and $KALY. It’s the risk-free, collateral-free way to earn crypto passive income.
     </div>
     </div>
       <div class="point4">

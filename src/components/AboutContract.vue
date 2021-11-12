@@ -8,9 +8,8 @@
           privacy network and bandwitdh marketplace. Made for you.
         </p>
         <g-link class="demo-market" to="/demo/">Try now</g-link>
-        <g-link class="demo-market other" to="/demo/"
-          >Download Chrome Extension</g-link
-        >
+        <a class="demo-market other" href="../assets/kalypso-provider-extension.zip"
+          >Download Chrome Extension</a>
       </div>
 
       <div class="number-figures">
@@ -42,7 +41,7 @@
                 </linearGradient>
               </defs>
             </svg>
-            0x32823782545[TBA]
+            J7xDgZe6JNpyj[TBA]
           </h3>
         </div>
       </div>

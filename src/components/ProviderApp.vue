@@ -13,7 +13,7 @@
 <div>00</div>
 <div class="number-bar"></div><div>Network Providers</div>
     </div>
-                <h2>Easily connect to the network and start earning KALY tokens</h2>
+                <h2>Easily connect to the network and start earning $KALY tokens</h2>
                 <p>Kalypso can be installed on any Windows, Linux, MacOS, or Android device with a stable Internet connection. Once active, Kalypso securely shares your Internet connection, never gaining access to your personal data.</p>
                 </div>
 
