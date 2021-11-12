@@ -6,13 +6,13 @@
   <div class="column">
       <ul>
           <h3>More</h3>
-           <li>About</li>
-          <li>Contact us</li>
-          <li>Get updates</li>
+           <li><g-link class="footer-links" to="/about/">About</g-link></li>
+          <li><a class="footer-links" href="mailto:hello@kalypso.network">Contact us</a></li>
+          <li><a class="footer-links" href="https://network.us5.list-manage.com/subscribe/post?u=ff03658be1ba40ba4737fad13&id=0ca8efef0c">Get updates</a></li>
       </ul>
       </div>
 
-  <div class="column" style="">
+  <div class="column" style="display:none">
       <ul>
           <h3>The Project</h3>
           <li>Whitepaper</li>
@@ -23,8 +23,8 @@
   <div class="column">
       <ul>
           <h3>Website Policy</h3>
-          <li>Terms of use</li>
-          <li>Privacy Policy</li>
+          <li><g-link class="footer-links" to="/terms/">Terms of use</g-link></li>
+          <li><g-link class="footer-links" to="/privacy/">Privacy Policy</g-link></li>
       </ul>
   </div>
   </div>
@@ -41,6 +41,13 @@
 
 
 <style scoped>
+
+.footer-links
+{
+    color:white;
+    text-decoration:none;
+}
+
 .wrapper-all
 {
     background-color:#0f0f0f;

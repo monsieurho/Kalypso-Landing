@@ -9,7 +9,7 @@
                   <div class="highlight">AN INTRODUCTION</div>
 <h1>Content Delivery Network</h1>
 <h5>A fast, agile, and secure global network</h5>
-<p>Riflebird offers ultra-fast static and dynamic content delivery over our global decentralized network. 
+<p>Kalypso offers ultra-fast static and dynamic content delivery over our global decentralized network. 
     Exercise precise control over how your content is cached, reduce bandwidth costs, and take advantage of built-in unmetered DDoS protection.</p>
    
     </div>

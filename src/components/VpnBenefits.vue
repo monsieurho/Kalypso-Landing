@@ -7,7 +7,7 @@
 <h5>Decentralized Global Network</h5>
 <p>
     A good VPN service provides you a secure, encrypted tunnel for online traffic to flow. 
-    Riflebird VPN is the best VPN if you’re looking for a peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history private. 
+   Kalypso VPN is the best VPN if you’re looking for a peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history private. 
 </p>
    
     </div>

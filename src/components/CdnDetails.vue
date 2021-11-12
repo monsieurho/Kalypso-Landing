@@ -2,14 +2,14 @@
 <div class="cdn-overall">
     <div class="cdn-details-wrapper">
         <div class="highlights">FEATURES</div>
-    <h2>Riflebird CDN</h2>
+    <h2>Kalypso CDN</h2>
     <p>Fast and cost-efficient content delivery at the edge. A CDN that makes websites, APIs, eCommerce stores, mobile applications and SaaS platforms more performant and highly secure.</p>
     </div>
 
 <div class="cdn-benefits">
 <div class="cdn-benefits-icon"><img src="../assets/icons/buildings.svg"></div>
 <div><h6>Hyper local</h6>
-Riflebird CDN has hundreds of nodes in over 80 countries, getting your content closer to your audience than ever before.</div>
+Kalypso CDN has hundreds of nodes in over 80 countries, getting your content closer to your audience than ever before.</div>
 </div>
 
 <div class="cdn-benefits">
@@ -21,7 +21,7 @@ Real time compression and resizing of assets at the point of request saves an av
 <div class="cdn-benefits">
 <div class="cdn-benefits-icon"><img src="../assets/icons/money-bag.svg"></div>
 <div><h6>Cost Effective</h6>
-Riflebird CDN saves 20%+ on average vs. traditional CDNs as a result of better media compression and the use of edge devices instead of centralised data centres.</div>
+Kalypso CDN saves 20%+ on average vs. traditional CDNs as a result of better media compression and the use of edge devices instead of centralised data centres.</div>
 </div>
 
 <div class="cdn-benefits">
