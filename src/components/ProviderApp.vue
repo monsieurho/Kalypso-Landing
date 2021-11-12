@@ -6,7 +6,7 @@
         <div class="provider-app-container"> 
 
                             <div class="provider-app-image">
-                    <img src="../assets/provider-app-preview.png" :style="{marginLeft: xImage+'px', marginTop: yImage+'px'}">
+                    <img src="../assets/iphone.png" :style="{marginLeft: xImage+'px', marginTop: yImage+'px'}">
                     </div>
             <div class="provider-app-headline">
                           <div class="section-number-container">
