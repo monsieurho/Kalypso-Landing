@@ -140,4 +140,35 @@
           animation-direction: alternate;
   box-shadow: 1px 1px 0 #1978fc, 2px 2px 0 #1978fc, 3px 3px 0 #1978fc, 4px 4px 0 #1978fc, 5px 5px 0 #1978fc;
 }
+
+@media (max-width:768px)
+{
+ .cdn-hero-container
+{
+    max-width:100%;
+  flex-direction:column;
+
+} 
+.hero-about-image {
+  width:100%;
+  min-height:0px;
+  padding-top:200px;
+}
+.hero-headline
+{
+    width:100%;
+    position:relative;
+padding:0px 20px;
+    padding-top:0px;
+    top:0px;
+    left:0px;
+    padding-bottom:50px;
+}
+.hero-headline > h1
+{
+    font-size:40px;
+
+
+}
+}
 </style>

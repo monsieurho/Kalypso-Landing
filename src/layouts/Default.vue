@@ -1,12 +1,12 @@
 <template>
   <div class="layout">
           <div :class="{open: activeClass}" class="menu-overlay">
-            <div class="menu-content">
-                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/about/">Home</g-link>
-                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/about/">About</g-link>
-                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/proxy/">Proxy</g-link>
-                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/vpn/">VPN</g-link>
-                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/cdn/">CDN</g-link>
+            <div v-on:click="openingMenu" class="menu-content">
+                        <g-link  class="menu-content-link" to="/about/">Home</g-link>
+                        <g-link  class="menu-content-link" to="/about/">About</g-link>
+                        <g-link  class="menu-content-link" to="/proxy/">Proxy</g-link>
+                        <g-link  class="menu-content-link" to="/vpn/">VPN</g-link>
+                        <g-link  class="menu-content-link" to="/cdn/">CDN</g-link>
             </div>
           </div>
       <div :class="{open: activeClass}" class="menu">
@@ -25,10 +25,10 @@
 
         <g-link to="/"><img src="../assets/Kalypso-blue.png" class="logo_bcn" alt=""></g-link>
       <nav class="nav main-nav">
-        <g-link class="nav__link" to="/about/">About</g-link>
-        <g-link class="nav__link" to="/proxy/">Proxy</g-link>
-        <g-link class="nav__link" to="/vpn/">VPN</g-link>
-        <g-link class="nav__link" to="/cdn/">CDN</g-link>
+        <g-link  class="nav__link" to="/about/">About</g-link>
+        <g-link  class="nav__link" to="/proxy/">Proxy</g-link>
+        <g-link  class="nav__link" to="/vpn/">VPN</g-link>
+        <g-link  class="nav__link" to="/cdn/">CDN</g-link>
         
       </nav>
       <nav class="nav app-nav">

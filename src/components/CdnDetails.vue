@@ -120,5 +120,31 @@ width:80px;
     0%{transform:rotate(360turn)}
     100%{transform:rotate(0turn)}
 }
+@media (max-width:768px)
+{
+    .cdn-overall
+{
 
+padding-left:20px;
+padding-right:20px;
+}
+.cdn-benefits-icon img
+{
+width:60px;
+}
+.cdn-details-wrapper h2
+{
+    font-size:2em;
+}
+.cdn-details-wrapper p
+{
+font-size:14px;
+   
+}
+.cdn-benefits
+{
+font-size:14px;
+
+}
+}
 </style>
