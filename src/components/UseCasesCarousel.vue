@@ -1,7 +1,7 @@
 <template>
 <div class="uses-cases-wrapper">
 
-<div class="headline-use-cases"><h2>How you can use Riflebird proxies</h2></div>
+<div class="headline-use-cases"><h2>How you can use Kalypso proxies</h2></div>
 
 <div class="actual-use-cases">
 <div>
@@ -48,7 +48,7 @@
 
 </div>
 <div>
-  <g-link class="demo-market" to="/demo/">View The Market Research Demo</g-link>
+  <a class="demo-market" href="mailto:hello@kalypso.network">Contact Us</a>
 </div>
 
   </div>

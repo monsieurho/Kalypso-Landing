@@ -7,9 +7,8 @@
           The Kalypso Network is the world's first truly decentralized
           privacy network and bandwitdh marketplace. Made for you.
         </p>
-        <g-link class="demo-market" to="/demo/">Contact Us</g-link>
-        <a class="demo-market other" href="../assets/kalypso-provider-extension.zip"
-          >Download Chrome Extension</a>
+        <a class="demo-market" href="mailto:hello@kalypso.network">Contact Us</a>
+        <a class="demo-market other" href="../assets/kalypso-provider-extension.zip">Download Chrome Extension</a>
       </div>
 
       <div class="number-figures">

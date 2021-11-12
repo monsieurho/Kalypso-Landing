@@ -7,9 +7,9 @@
 </div>
               <div class="hero-headline">
                   <div class="highlight">AN INTRODUCTION</div>
-<h1>dVPN</h1>
+<h1>VPN</h1>
 <h5>Decentralized Global Network</h5>
-<p>The world’s premier VPN running exclusively on the blockchain. Riflebird VPN is cheaper than any other services and stable. It delivers your content faster and more cost effectively than traditional VPNs can.</p>
+<p>The world’s first VPN on Solana running exclusively on the blockchain. Kalypso VPN is cheaper than any other services and stable. It delivers your content faster and more cost effectively than traditional VPNs can.</p>
    
     </div>
 </div>
