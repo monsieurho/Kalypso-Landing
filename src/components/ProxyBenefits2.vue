@@ -153,6 +153,8 @@
   background-color:#0f0f0f;
   padding-bottom:100px;
     padding-top:100px;
+    overflow-x:hidden;
+
 }
 .benefits2-container
 {
@@ -1736,7 +1738,7 @@ width:80%;
 {
   display:flex;
   flex-direction:column; 
-
+overflow-x:hidden;
 }
 .benefits2-container
 {

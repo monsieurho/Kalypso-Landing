@@ -27,7 +27,7 @@
     align-items:center;
     background-color:#0f0f0f;
     min-height:200px;
-    
+    overflow-x: hidden;
 }
 .about-supporters-container
 {
@@ -52,5 +52,28 @@ margin-left:50px;
 .about-supporters-container > div img
 {
 width:100%;
+}
+
+@media (max-width:768px)
+{
+.about-supporters-wrapper
+{
+
+    flex-direction:column;
+
+}
+.about-supporters-container
+{
+    flex-direction:column;
+    padding-top:80px;
+    padding-bottom:40px;
+}
+.about-supporters-container > div
+{
+width:40%;
+margin-right:50px;
+margin-left:50px;
+padding-bottom:40px;
+}
 }
 </style>

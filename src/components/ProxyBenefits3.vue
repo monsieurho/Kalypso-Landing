@@ -49,6 +49,8 @@
   background-color:#0f0f0f;
   padding-bottom:200px;
     padding-top:100px;
+    overflow-x:hidden;
+
 }
 .benefits3-container
 {
@@ -161,6 +163,8 @@ display:none
   flex-direction:column; 
   padding-bottom:0px;
     padding-top:100px;
+    overflow-x:hidden;
+
 }
 .benefits3-container
 {

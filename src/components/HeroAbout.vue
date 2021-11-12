@@ -1,7 +1,7 @@
 <template>
 <div class="hero-about-wrapper">
 <figure>
-  <video class="svg-clipped-text" autoplay preload="metadata" buffered loop muted>
+  <video playinline class="svg-clipped-text" autoplay preload="metadata" buffered loop muted>
  
 
       <source src="../assets/ama.mp4"
@@ -38,6 +38,7 @@
     max-width:1200px;
     margin:auto;
     min-height:90vh;
+    overflow-x: hidden;
 }
 .hero-about-wrapper > div
 {
@@ -95,6 +96,37 @@ top:38%;
 .svg-clipped-text {
     -webkit-clip-path: url(#svgTextPath);
     clip-path: url(#svgTextPath);
+}
+@media (max-width:768px)
+{
+.hero-about-wrapper
+{
+    flex-direction:column;
+    min-height:100vh;
+}
+.hero-about-wrapper > div
+{
+width:100%;
+padding:0px 20px;
+}
+.hero-about-headline h1
+{
+    font-size: 35px;
+    line-height: 1;
+    font-weight:normal;
+margin-bottom:0px;
+}
+.hero-about-headline h3
+{
+    font-size: 18px;
+    line-height: 1.2;
+
+}
+figure{
+  width: 100%;
+ margin:0px 20px 0px 60px;
+}
+
 }
  
 </style>

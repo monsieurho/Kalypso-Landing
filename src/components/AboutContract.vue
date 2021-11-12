@@ -14,7 +14,7 @@
       <div class="number-figures">
         <div>
           <h5>CONNECTED DEVICES</h5>
-          <h3>43</h3>
+          <h3>45</h3>
         </div>
         <div>
           <h5>DATA PROCESSED</h5>
@@ -107,6 +107,8 @@ console.log("Riflebird Network: Success");
   background-color: #0f0f0f;
   min-height: 200px;
   padding-bottom: 200px;
+  overflow-x:hidden;
+
 }
 .about-contract-container {
   width: 1000px;
@@ -186,5 +188,10 @@ console.log("Riflebird Network: Success");
   border-bottom: #9958c5 dashed 1px;
   transition: all ease-in 0.5s;
   cursor: pointer;
+}
+
+@media (max-width:768px)
+{
+
 }
 </style>
