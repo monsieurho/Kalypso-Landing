@@ -3,9 +3,7 @@
     <div class="about-supporters-container">
 <div><a href="/" target="_blank"><img src="../assets/companies-logos/mantra-dao.svg"></a></div>
 <div><a href="/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
+<div><a href="/" target="_blank"><img src="../assets/companies-logos/quantum-flow.png"></a></div>
 
   
   </div></div>

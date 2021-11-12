@@ -3,7 +3,6 @@
     <HeroAbout /> 
     <AboutSupporters />  
     <AboutContract />  
-  <Card /> 
   <SocialFooter />
 </div>
 </template>

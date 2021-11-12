@@ -2,11 +2,11 @@
   <div class="layout">
           <div :class="{open: activeClass}" class="menu-overlay">
             <div class="menu-content">
-                        <g-link class="menu-content-link" to="/about/">Home</g-link>
-                        <!-- <g-link class="menu-content-link" to="/about/">About</g-link> -->
-                        <g-link class="menu-content-link" to="/proxy/">Proxy</g-link>
-                        <g-link class="menu-content-link" to="/vpn/">VPN</g-link>
-                        <g-link class="menu-content-link" to="/cdn/">CDN</g-link>
+                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/about/">Home</g-link>
+                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/about/">About</g-link>
+                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/proxy/">Proxy</g-link>
+                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/vpn/">VPN</g-link>
+                        <g-link v-on:click="openingMenu" class="menu-content-link" to="/cdn/">CDN</g-link>
             </div>
           </div>
       <div :class="{open: activeClass}" class="menu">

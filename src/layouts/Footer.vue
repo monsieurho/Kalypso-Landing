@@ -6,7 +6,7 @@
   <div class="column">
       <ul>
           <h3>More</h3>
-          <!-- <li>About</li> -->
+           <li>About</li>
           <li>Contact us</li>
           <li>Get updates</li>
       </ul>
