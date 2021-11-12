@@ -69,4 +69,30 @@
   width:90%;
 
 }
+@media (max-width:768px)
+{
+  .vpn-hero-container
+{
+  flex-direction:column;
+}
+.hero-about-image {
+
+  width:100%;
+  padding-top:100px;
+
+}
+.hero-about-image img {
+  width:100%;
+
+}
+.hero-headline
+{
+    width:100%;
+    position:relative;
+padding-left:20px;
+padding-right:20px;
+    padding-top:0px;
+
+}
+}
 </style>

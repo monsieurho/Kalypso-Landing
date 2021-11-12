@@ -1,8 +1,8 @@
 <template>
     <div class="vpn-benefits">
       <div class="vpn-hero-wrapper">
-          <div class="vpn-hero-container">
-                            <div class="hero-headline">
+          <div class="vpn-hero-container ">
+                            <div class="hero-headline order2">
 <h1>Secure and private access to the Internet</h1>
 <h5>Decentralized Global Network</h5>
 <p>
@@ -11,7 +11,7 @@
 </p>
    
     </div>
-              <div class="hero-about-image">
+              <div class="hero-about-image order1">
 <img src="../assets/secure.gif">
 </div>
 
@@ -96,5 +96,31 @@ Buffering is the ultimate buzzkill, so streaming or downloading files with a slo
 .hero-about-image img {
   width:90%;
 
+}
+@media (max-width:768px)
+{
+.vpn-hero-container
+{
+  flex-direction:column;
+}
+.hero-about-image {
+  width:100%;
+
+}
+.hero-about-image img {
+  width:100%;
+}
+.hero-headline
+{
+    width:100%;
+padding:0px 20px;
+
+}
+.order1{
+    order:1;
+}
+.order2{
+    order:2;
+}
 }
 </style>
