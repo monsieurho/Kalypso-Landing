@@ -41,7 +41,7 @@ on free-to-play video games, or simply treat yourself with a little online shopp
         Transparent earnings
     </h3>
     <div>
-        Your earnings directly depend on the amount of traffic you share with Honeygain’s network. The more you share, the more
+        Your earnings directly depend on the amount of traffic you share with Kalypso’s network. The more you share, the more
         you earn!
     </div>
     </div>
