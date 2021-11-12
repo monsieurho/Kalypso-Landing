@@ -1,7 +1,7 @@
 <template>
   <div class="about-contract-wrapper">
     <div class="about-contract-container">
-      <div>
+      <div class="demo-part">
         <h2>Try the demo</h2>
         <p>
           The Kalypso Network is the world's first truly decentralized
@@ -108,7 +108,6 @@ console.log("Riflebird Network: Success");
   min-height: 200px;
   padding-bottom: 200px;
   overflow-x:hidden;
-
 }
 .about-contract-container {
   width: 1000px;
@@ -192,6 +191,33 @@ console.log("Riflebird Network: Success");
 
 @media (max-width:768px)
 {
+.about-contract-wrapper
+{
+flex-direction: column;
+  width: 100%;
 
+}
+.about-contract-container{
+  flex-direction:column;
+    width: 100%;
+
+}
+.about-contract-container > div {
+  width: 100%;
+  flex-direction:column;
+
+}
+.demo-part
+{
+  padding:0px 20px;
+  width:100%;
+}
+.demo-market.other
+{
+  display:none;
+}
+.number-figures {
+display:none;
+}
 }
 </style>
