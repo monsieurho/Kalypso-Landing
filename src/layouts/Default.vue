@@ -32,7 +32,7 @@
         
       </nav>
       <nav class="nav app-nav">
-        <g-link class="nav__link getting-started" to="/demo/">Try the Demo</g-link>
+        <a class="nav__link getting-started" href="https://network.us5.list-manage.com/subscribe/post?u=ff03658be1ba40ba4737fad13&id=0ca8efef0c">Get Updates</a>
         </nav>
     </header>
     <slot/>
@@ -106,6 +106,7 @@ body {
   padding-right:50px;
   position:absolute;
   width:100%;
+  z-index: 9999;
 }
 
 .logo_bcn
