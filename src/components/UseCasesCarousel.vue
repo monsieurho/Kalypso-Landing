@@ -124,6 +124,14 @@ max-width:600px;
   text-decoration:none;
 }
 
-
+@media (max-width:768px)
+{
+  .headline-use-cases h2
+{
+font-weight:400;
+font-size:35px;
+max-width:600px;
+}
+}
 
 </style>

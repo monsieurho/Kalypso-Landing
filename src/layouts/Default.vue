@@ -106,7 +106,8 @@ body {
   padding-right:50px;
   position:absolute;
   width:100%;
-  z-index: 9999;
+    z-index: 99;
+
 }
 
 .logo_bcn
@@ -256,6 +257,7 @@ margin-left:auto;
   justify-content: center;
   align-items: center;
   margin-top:10vh;
+
 }
 .menu-overlay.open {
   opacity: 1;
@@ -266,6 +268,7 @@ margin-left:auto;
 color:white;
 display:flex;
 flex-direction:column;
+z-index:9999;
 }
 .menu-content-link
 {

@@ -1,7 +1,7 @@
 <template>
 <div class="proxy-benefits3-wrapper">
     <div class="benefits3-container">
-<div>
+<div class="text-container-f">
     <div class="section-number-container">
 <div>02</div>
 <div class="number-bar"></div><div>Features</div>
@@ -147,6 +147,41 @@ width:80%;
 @keyframes rotating {
     0%, 10% {transform: rotate(0deg);}
     60%, 100% {transform: rotate(-1turn);}
+}
+
+@media (max-width:768px)
+{
+    .section-number-container
+{
+display:none
+}
+.proxy-benefits3-wrapper
+{
+  display:flex;
+  flex-direction:column; 
+  padding-bottom:0px;
+    padding-top:100px;
+}
+.benefits3-container
+{
+flex-direction: column;
+}
+.benefits3-container > div
+{
+width:100%;
+color:#fff;
+padding:0px 20px;
+}
+.loader3 {
+    order:1;
+    margin-left:20px;
+    margin-bottom:30px;
+}
+.text-container-f
+{
+order:2;
+margin-bottom:50px;
+}
 }
 
 </style>

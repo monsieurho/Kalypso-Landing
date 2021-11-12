@@ -41,6 +41,28 @@
 {
     width:70px;
 }
-
+@media (max-width:768px)
+{
+  .proxy-benefits-wrapper
+{
+  flex-direction:column; 
+  background-color:#0f0f0f;
+  padding-bottom:100px;
+  padding:0px 20px;
+}
+.proxy-benefits-wrapper > div
+{
+    background-color:#fff;
+    border-radius:50px;
+    min-height:350px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin:40px;
+    align-items:center;
+    text-align:center;
+    margin:20px 40px;
+}
+}
 
 </style>

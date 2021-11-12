@@ -1,7 +1,7 @@
 <template>
 <div class="proxy-benefits2-wrapper">
     <div class="benefits2-container">
-<div>
+<div class="text-container-g">
     <div class="section-number-container">
 <div>00</div>
 <div class="number-bar"></div><div>Features</div>
@@ -10,7 +10,7 @@
     
     <p>Scale up or down with ease and send an infinite amount of concurrent requests. Use our rotating residential proxies comprised of real user devices, making them undetectable when used correctly.</p>
 </div>
-<div><img src="../assets/rocket.gif"></div>
+<div class="rocket-container"><img src="../assets/rocket.gif"></div>
   </div>
 
   <div class="benefits2-container" style="margin-top:150px;">
@@ -1730,6 +1730,45 @@ width:80%;
   }
 }
 
+@media (max-width:768px)
+{
+  .proxy-benefits2-wrapper
+{
+  display:flex;
+  flex-direction:column; 
 
+}
+.benefits2-container
+{
+flex-direction:column;
+padding-left:20px;
+padding-right:20px;
+}
+.benefits2-container > div
+{
+width:100%;
+color:#fff;
+}
+.section-number-container
+{
+display:none;
+}
+.scene {
+  background: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:200px;
+}
+.text-container-g
+{
+  order:2;
+
+}
+.rocket-container
+{
+  order:1;
+}
+}
 
 </style>

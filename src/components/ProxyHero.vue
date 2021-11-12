@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="proxy-container">
 <div class='wave-container'>
     
   <div class="headline"><div class="highlight">FORWARD PROXY</div>Gather Data at Scale With Market-Leading Proxy Solutions</div>
@@ -14,6 +14,11 @@
 <script>
 </script>
 <style scoped>
+  .proxy-container
+  {
+    max-width:100%;
+    overflow-x:hidden;
+  }
 .highlight
 {
     color:blue;
@@ -33,7 +38,7 @@
   top: 40%;
   left: 50%;
   margin: 0;
-  z-index: 9000;
+  z-index: 1200;
   font-size: 3rem;
   transform: translate(-50%,-50%);
   line-height:1.3;
@@ -69,5 +74,23 @@
 @keyframes wave {
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
+}
+
+@media (max-width:768px)
+{
+  .wave-container .headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  z-index: 1200;
+  font-size: 2rem;
+  transform: translate(-50%,-50%);
+  line-height:1;
+  text-align:center;
+  width:100%;
+  padding-left:20px;
+  padding-right:20px;
+}
 }
 </style>
