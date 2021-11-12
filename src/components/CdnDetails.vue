@@ -46,7 +46,7 @@ Take workload off your origin by serving SSL certificates directly at the edge, 
     background-color:#0f0f0f;
     min-height:70vh;
     padding-bottom:100px;
-
+z-index:1;
 }
 
 
@@ -60,6 +60,8 @@ display:flex;
 align-items:center;
 flex-direction:column;
 color:#fff;
+z-index:1;
+
 }
 .highlights
 {

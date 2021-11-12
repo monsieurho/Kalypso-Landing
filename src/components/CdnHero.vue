@@ -38,6 +38,8 @@
     background-image: radial-gradient(closest-side, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94), white), url("../assets/grid.svg");
   background-repeat: no-repeat, repeat;
   background-size: auto, 75px 44px;
+  z-index:1;
+
 }
 .hero-headline
 {
@@ -47,6 +49,8 @@
     padding-top:0px;
     top:-70px;
     left:-40px;
+      z-index:1;
+
 }
 .hero-headline > p
 {

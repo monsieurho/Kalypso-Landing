@@ -2,7 +2,7 @@
   <div class="layout">
           <div :class="{open: activeClass}" class="menu-overlay">
             <div v-on:click="openingMenu" class="menu-content">
-                        <g-link  class="menu-content-link" to="/about/">Home</g-link>
+                        <g-link  class="menu-content-link" to="/">Home</g-link>
                         <g-link  class="menu-content-link" to="/about/">About</g-link>
                         <g-link  class="menu-content-link" to="/proxy/">Proxy</g-link>
                         <g-link  class="menu-content-link" to="/vpn/">VPN</g-link>
