@@ -1,7 +1,7 @@
 <template>
 <div class="hero-about-wrapper">
 <figure>
-  <video playinline class="svg-clipped-text" autoplay preload="metadata" buffered loop muted>
+  <video playsinline class="svg-clipped-text" autoplay preload="metadata" buffered loop muted>
  
 
       <source src="../assets/ama.mp4"
