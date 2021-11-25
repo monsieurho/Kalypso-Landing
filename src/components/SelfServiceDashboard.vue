@@ -11,7 +11,7 @@
     <h2>
         Self-service dashboard
     </h2>
-    <p>See your detailed proxy usage statistics, easily create sub-users, whitelist your IPs, and conveniently manage your account. Do it all in the Riflebird dashboard.</p>
+    <p>See your detailed proxy usage statistics, easily create sub-users, whitelist your IPs, and conveniently manage your account. Do it all in the Kalypso dashboard.</p>
 </div>
 
 
