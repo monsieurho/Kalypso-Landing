@@ -15,7 +15,7 @@
   </div>
   <h1 class="bcn_title">Decentralized Bandwidth Marketplace</h1>
     <div class="bcn_paragraph">
-      Leverage Kalypso’s P2P Proxy, VPN, and CDN bandwidth marketplace to maximize your browsing capabilities. Put your devices to work and earn passive income through the click of a button. <span class="bcn_plink"><a href="#try-the-demo"> Try the demo</a></span>
+      Leverage Kalypso’s P2P Proxy, VPN, and CDN bandwidth marketplace to maximize your browsing capabilities. Put your devices to work and earn passive income through the click of a button. <span class="bcn_plink"><a href="#try-the-demo"> </a></span>
   </div>
           <div id="prepare">
             <!-- Begin Mailchimp Signup Form -->

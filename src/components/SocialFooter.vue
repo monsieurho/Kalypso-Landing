@@ -1,10 +1,10 @@
 <template>
 <div orientation="left" class="bcn_social-bottom-container">
     <ul class="bcn_social-list">
-    <li class="bcn_reddit-icon"><img src="../assets/discord.svg"></li>
-    <li class="bcn_twitter-icon"><img src="../assets/twitter.svg"></li>
-    <li class="bcn_telegram-icon"><img src="../assets/telegram.svg"></li>
-    <li class="bcn_reddit-icon"><img src="../assets/reddit-logo.svg"></li>
+    <li class="bcn_reddit-icon"><a href="https://discord.gg/JJHqx8Y5" target="_blank"><img src="../assets/discord.svg"></a></li>
+    <li class="bcn_twitter-icon"><a href="https://twitter.com/KalypsoNetwork" target="_blank"><img src="../assets/twitter.svg"></a></li>
+    <li class="bcn_telegram-icon"><a href="hhttps://t.me/+tPAAmaWk49hmMmY1" target="_blank"><img src="../assets/telegram.svg"></a></li>
+    <li class="bcn_reddit-icon"><a href="https://www.reddit.com/r/kalypsonetwork/" target="_blank"><img src="../assets/reddit-logo.svg"></a></li>
       
     </ul>
     

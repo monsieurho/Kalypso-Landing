@@ -100,7 +100,6 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-  max-width: 1500px;
   margin:auto;
   padding-left:50px;
   padding-right:50px;

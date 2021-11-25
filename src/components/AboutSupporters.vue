@@ -1,9 +1,9 @@
 <template>
 <div class="about-supporters-wrapper">
     <div class="about-supporters-container">
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/mantra-dao.svg"></a></div>
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
-<div><a href="/" target="_blank"><img src="../assets/companies-logos/quantum-flow.png"></a></div>
+<div><a href="https://www.mantradao.com/" target="_blank"><img src="../assets/companies-logos/mantra-dao.svg"></a></div>
+<div><a href="https://www.unknownvc.com/" target="_blank"><img src="../assets/companies-logos/unknown-vc.png"></a></div>
+<div><a ><img src="../assets/companies-logos/quantum-flow.png"></a></div>
 
   
   </div></div>

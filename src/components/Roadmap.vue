@@ -15,11 +15,11 @@
       <p class='text'>Launch of the chrome extension demo for providers, proof of concept for the user dashboard, further network architecture designing and security audit</p>
     </div>
   </div>
-
+<span style="color:white">2022</span><hr><br>
   <div class='step'>
     <div class='number'>Q1</div>
     <div class='info'>
-      <p class='title'>2022 -Proxy beta launch and on-chain Solana testnet deployment</p>
+      <p class='title'>Proxy beta launch and on-chain Solana testnet deployment</p>
       <p class='text'>Testing of on-chain data stream, launch of community platforms and testing of provider rewards calculation</p>
     </div>
   </div>

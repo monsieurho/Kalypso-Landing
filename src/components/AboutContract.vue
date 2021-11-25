@@ -8,13 +8,13 @@
           privacy network and bandwitdh marketplace. Made for you.
         </p>
         <a class="demo-market" href="mailto:hello@kalypso.network">Contact Us</a>
-        <a class="demo-market other" href="../assets/kalypso-provider-extension.zip">Download Chrome Extension</a>
+        <a class="demo-market other" target="_blank" href="../assets/kalypso-provider-extension.zip">Download Chrome Extension</a>
       </div>
 
       <div class="number-figures">
         <div>
           <h5>CONNECTED DEVICES</h5>
-          <h3>45</h3>
+          <h3>4</h3>
         </div>
         <div>
           <h5>DATA PROCESSED</h5>
